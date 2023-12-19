@@ -64,7 +64,7 @@ export default function Home() {
                 htmlFor="cover-photo"
                 className="block text-sm font-medium leading-6 text-gray-900"
               >
-                Cover photo
+                Foto das metas de ano novo
               </label>
               <div className="flex justify-center px-6 py-10 mt-2 border border-dashed rounded-lg border-gray-900/25">
                 <div className="text-center">
@@ -77,7 +77,7 @@ export default function Home() {
                       htmlFor="file-upload"
                       className="relative font-semibold text-indigo-600 bg-white rounded-md cursor-pointer focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500"
                     >
-                      <span>Upload a file</span>
+                      <span>Envie um arquivo</span>
                       <input
                         id="file-upload"
                         name="file-upload"
@@ -85,7 +85,7 @@ export default function Home() {
                         className="sr-only"
                       />
                     </label>
-                    <p className="pl-1">or drag and drop</p>
+                    <p className="pl-1">ou arraste e solte</p>
                   </div>
                   <p className="text-xs leading-5 text-gray-600">
                     PNG, JPG, GIF up to 10MB
